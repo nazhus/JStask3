@@ -30,7 +30,7 @@ h1 {
   white-space:nowrap;
 }
 
-btn {
+.btn {
   position: absolute;
   display: flex;
   align-items: center;
