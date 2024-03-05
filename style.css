@@ -2,8 +2,8 @@
 :root {
   --left-bg-color: rgba(87, 84, 236, 0.7);
   --right-bg-color: rgba(43, 43, 43, 0.8);
-  --left-button-hover-color: rgba(87, 84, 236, 1);
-  --right-button-hover-color: rgba(28, 122, 28, 1);
+  --left-btn-hover-color: rgba(87, 84, 236, 1);
+  --right-btn-hover-color: rgba(28, 122, 28, 1);
   --hover-width: 75%;
   --other-width: 25%;
   --speed: 1000ms;
@@ -20,7 +20,7 @@ body {
   margin: 0;
 }
 
-h2 {
+h1 {
   font-size: 4rem;
   color: #fff;
   position: absolute;
@@ -30,7 +30,7 @@ h2 {
   white-space:nowrap;
 }
 
-button {
+btn {
   position: absolute;
   display: flex;
   align-items: center;
@@ -48,12 +48,12 @@ button {
   padding: 1.5rem;
 }
 
-.split.left .button:hover {
+.split.left .btn:hover {
   background-color: var(--left-button-hover-color);
   border-color: var(--left-button-hover-color);
 }
 
-.split.right .button:hover {
+.split.right .btn:hover {
   background-color: var(--right-button-hover-color);
   border-color: var(--right-button-hover-color);
 }
@@ -131,7 +131,7 @@ button {
     top: 30%;
   }
 
-  .button {
+  .btn {
     padding: 1.2rem;
     width: 12rem;
   }
